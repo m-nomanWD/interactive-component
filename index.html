@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- custom styels -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="header">
+     
+      <h1>Simple, traffic-based pricing</h1>
+      <div class="heading-parh">
+        <p>Sign-up for our 30-day trial.</p>
+        <p>No credit card required.</p>
+      </div>
+    </section>
+    <section class="pricing">
+      <article>
+      <p style="text-transform: uppercase;" ><span class="previews-count">100k</span> Pageviews</p>
+      <input type="range" name="" id="pageview-handler" value="60" min="0" max="100" step="10" />
+      <div class="pricing-handler">
+        <b style="font-size: 32px;
+  color: hsl(227, 35%, 25%) ;
+  font-weight: 700;">$</b><span class="price-display"> 16.00</span>
+        <b style="font-size:13px ;">/month</b>
+      </div>
+      <div class="billing-toggle">
+<p>Monthly Billing </p> </span>
+<div class="toggle"> <span class="toggle-circle"></span></div>
+
+<p>Yearly Billing </p> <span class="discount">25%  <b>discount </b> </span>   
+      </div>
+   </article>
+
+    <article class="services-offer">
+      <div class="offers">
+
+        <p><span><img src="./images/icon-check.svg" alt=""></span>Unlimited websites</p>
+        <p><span><img src="./images/icon-check.svg" alt=""></span> 100% data
+      ownership </p>
+        <p><span><img src="./images/icon-check.svg" alt=""></span> Email reports </p>
+      </div>
+      <div>      <button class="btn">Start my trial</button></div>
+
+      <article>
+    </section>
+
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="./app.js"></script>
+  </body>
+</html>
